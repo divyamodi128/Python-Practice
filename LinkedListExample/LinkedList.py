@@ -81,7 +81,7 @@ class LinkedList(object):
             previousNode.nextNode = currentNode.nextNode
 
 
-linkedlist = LinkedList()  # Intantiate LinkedList
+linkedlist = LinkedList()  # Instantiate LinkedList
 
 linkedlist.insertStart(50)
 linkedlist.insertStart(62)
