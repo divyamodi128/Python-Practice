@@ -8,8 +8,8 @@ import os
 
 host = "smtp.gmail.com"
 port = 587
-username = "divtestpy@gmail.com"
-password = "asdfgh111"
+username = "youremail@gmail.com"
+password = "yourpassword"
 file_ = "templates/email_html_templates.html"
 
 
@@ -90,7 +90,7 @@ class MessageUser():
                         part1 = MIMEText(user_message, 'plain')
                     else:
                         part1 = MIMEText(user_message, 'html')
-                    
+
                     msg.attach(part1)
                     # print "msg", str(msg)
                     email_conn.sendmail(username, [user_email], str(msg))
