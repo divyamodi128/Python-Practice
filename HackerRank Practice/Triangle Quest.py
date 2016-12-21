@@ -5,3 +5,4 @@ for i in range(1,input()):
 for i in range(1,input()):
     print str(i)*i
 """
+# print [str(i)*i for i in xrange(5)]

@@ -1,0 +1,7 @@
+Hi {name},
+
+Thank you for the purchase on {date}.
+We hope you are exicted about using it. Just as a
+reminder the purchase total was ${amount}.
+
+Thank You Once Again...!
