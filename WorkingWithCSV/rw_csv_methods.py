@@ -30,12 +30,12 @@ def read_data(user_id=None, email=None):
         return msg
 
 
-print read_data(user_id=2)
-print read_data(email="asd@asd.com")
-print read_data(user_id=2, email="asd@asd.com")
-print read_data()
+read_data(user_id=2)
+read_data(email="asd@asd.com")
+read_data(user_id=2, email="asd@asd.com")
+read_data()
 
-"""
+
 def get_lenght(file_path):
     with open(file_path) as csvfile:
         reader = csv.reader(csvfile)
@@ -107,6 +107,5 @@ def delete_data(delete_id=None):
         shutil.move(temp_file.name,file_name)
 
 
-"""
 # delete_data(delete_id=3)
 
