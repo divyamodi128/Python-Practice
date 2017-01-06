@@ -1,4 +1,11 @@
 # Byte-compiled / optimized / DLL files
+Arg_Practice/
+ExtraPratice/
+Set_Practice/
+
+__init__.py
+.gitignore
+
 __pycache__/
 *.py[cod]
 *$py.class
