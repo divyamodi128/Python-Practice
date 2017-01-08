@@ -2,6 +2,7 @@
 Arg_Practice/
 ExtraPratice/
 Set_Practice/
+SendingEmails/emails/
 
 __init__.py
 .gitignore
