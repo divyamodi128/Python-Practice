@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import os
 import mimetypes
 
-username = "divtestpy@gmail.com"
-password = "asdfgh111"
+username = "youremail@gmail.com"
+password = "password"
 
 mail = IMAP4_SSL("imap.gmail.com")
 mail.login(username, password)
