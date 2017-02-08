@@ -4,8 +4,10 @@ from email.mime.text import MIMEText
 
 host = "smtp.gmail.com"
 port = 587
-username = "divtestpy@gmail.com"
-password = "YourPassword"
+
+username = "youremail@gmail.com"
+password = "yourpassword"
+
 # from_email = username
 to_list = ["divtestpy@gmail.com", "modidivya16@gmail.com"]
 
