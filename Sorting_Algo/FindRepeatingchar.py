@@ -10,7 +10,19 @@ def findrepeats(str):
             str = str.replace(str[i] * count, '')
     print('Final String', str)
 
+import re
+def findrepeats1(str):
+    setstr = set(str)
+    for s in setstr:
+        l = len(re.findall(s, str))
+        if l >= 3 and re.findall(s * l, str):
+            print('Removing:', s * l)
+            str = str.replace(s * l, '')
+    return str
+
+
 print(findrepeats('abbbccdeeeef'))
+print(findrepeats1('abbcccddeeeefdd'))
 
 """
 Input 1 : 'abbbccdeeeef'
